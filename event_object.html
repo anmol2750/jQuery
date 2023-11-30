@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Event Object </title>
+	    <script src = "jquery-3.7.0.js"></script>
+        
+        <script>
+            $(document).ready(function () {
+		        $('#save_btn').click(function (eventObj) {
+                    alert('X =' + eventObj.pageX + ', Y =' + eventObj.pageY);
+                });
+            });
+        </script>
+    </head>
+    <body>
+    	<h1>Demo : jQuery eventObject </h1>
+	    <input type = "button" value = "Save" id = "save_btn" />
+    </body>
+</html>

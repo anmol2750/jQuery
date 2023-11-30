@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>hide method</title>
+        <script src = "jquery-3.7.0.js"></script>
+    </head>
+    <body>
+        <p>Hello</p>
+        <a href = "#">Click to hide me too</a>
+        <p>Here is another paragraph</p>
+        
+        <script>
+            $( "p" ).hide();
+            $( "a" ).on( "click", function( event ) {
+                event.preventDefault();
+                $( this ).hide();
+            });
+        </script> 
+    </body>
+</html>

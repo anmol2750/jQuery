@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8">
+        <title>wrap demo</title>
+        <style>
+            div {
+                border: 2px solid blue;
+            }
+            p {
+                background: yellow;
+                margin: 4px;
+            }
+        </style>
+        <script src = "jquery-3.7.0.js"></script>
+    </head>
+    <body>
+        <p>Hello</p>
+        <p>cruel</p>
+        <p>World</p> 
+        <script>
+            $( "p" ).wrap( "<div></div>" );
+        </script>
+    </body>
+</html>

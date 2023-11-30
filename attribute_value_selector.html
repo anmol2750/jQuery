@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src = "jquery-3.7.0.js"> </script>
+        
+        <script>
+            $(document).ready(function () {
+                $('[class = "yellowDiv"]').append('This element includes class = "yellowDiv" attribute');
+            });
+        </script>
+
+        <link rel = "stylesheet" href = "attribute_selector.css">
+    </head>
+    <body>
+	    <h1>Demo: jQuery attribute selector</h1>   
+	    <div id = "my_div1" >
+		<p>&nbsp;</p>
+    	</div>
+	    <p id = "imp_para" class = "bold_para">This is paragraph.</p>
+	    <div id = "my_div2" class = "yellowDiv"></div>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	    <script src = "jquery-3.7.0.js"></script>
+	    <script>
+            $(document).ready(function () {
+			    $('div').click(function (event) {
+			        alert( event.target.tagName + ' clicked');
+		        });
+            });
+        </script>
+        <link rel = "stylesheet" href = "event_bubbling.css">
+    </head>
+    <body>
+	    <h1>Demo : Event Bubbling </h1>
+        <div>
+            <p>
+                <span>This is span.</span>
+			    This is p.
+            </p>
+		    This is div.
+        </div>
+	    <h3> Click on div,p or span. </h3>
+    </body>
+</html>

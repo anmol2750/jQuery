@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src = "jquery-3.7.0.js"></script>
+        
+        <script>
+            $(document).ready(function () {
+			    $('#imp_para').append('This element\'s id is "imp_para"');
+			    $('#my_div2').append('This element\'s id is "my_div2"');
+           });
+        </script>
+	    
+        <style>
+            div{
+        	    border: 1px solid;
+            }
+            p{
+        	    border: 1px dashed;
+            }
+        </style>
+    </head>
+    <body>   
+	    <div id = "my_div1" >
+		    <p> Don't be sleepy wake up India. </p>
+	    </div>
+	    <p id = "imp_para"></p>
+        <div id = "my_div2"></div>
+    </body>
+</html>
